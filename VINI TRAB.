@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>Cardápio da Pizzaria Delícia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FF5733; /* Cor de fundo vermelha */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #FFF; /* Cor do título branca */
+            text-align: center;
+            font-size: 36px; /* Tamanho maior para o título */
+            margin-bottom: 20px; /* Espaço abaixo do título */
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff; /* Cor de fundo para as seções */
+            border-radius: 10px;
+            max-width: 600px; /* Define uma largura máxima para o conteúdo */
+            margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Alinhar os itens verticalmente */
+            margin-bottom: 10px;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .pizzas {
+            background-color: #FFD700;
+        }
+
+        .beverages {
+            background-color: #87CEEB;
+        }
+
+        .pizza-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cardápio da Pizzaria Delícia</h1>
+
+    <div class="section pizzas">
+        <h2>Pizzas</h2>
+        <div class="pizza-group">
+            <h3>Margherita</h3>
+            <div class="menu-item">
+                <span>🍕 Grande</span>
+                <span>R$ 30.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Média</span>
+                <span>R$ 25.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Pequena</span>
+                <span>R$ 20.00</span>
+            </div>
+        </div>
+
+        <div class="pizza-group">
+            <h3>Pepperoni</h3>
+            <div class="menu-item">
+                <span>🍕 Grande</span>
+                <span>R$ 35.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Média</span>
+                <span>R$ 28.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Pequena</span>
+                <span>R$ 22.00</span>
+            </div>
+        </div>
+
+        <div class="pizza-group">
+            <h3>Vegetariana</h3>
+            <div class="menu-item">
+                <span>🍕 Grande</span>
+                <span>R$ 32.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Média</span>
+                <span>R$ 26.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Pequena</span>
+                <span>R$ 21.00</span>
+            </div>
+        </div>
+
+        <div class="pizza-group">
+            <h3>Quatro Queijos</h3>
+            <div class="menu-item">
+                <span>🍕 Grande</span>
+                <span>R$ 34.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Média</span>
+                <span>R$ 28.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Pequena</span>
+                <span>R$ 23.00</span>
+            </div>
+        </div>
+
+        <div class="pizza-group">
+            <h3>Frango com Catupiry</h3>
+            <div class="menu-item">
+                <span>🍕 Grande</span>
+                <span>R$ 36.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Média</span>
+                <span>R$ 29.00</span>
+            </div>
+            <div class="menu-item">
+                <span>🍕 Pequena</span>
+                <span>R$ 24.00</span>
+            </div>
+        </div>
+        <!-- Adicione mais grupos de pizzas aqui -->
+    </div>
+
+    <div class="section beverages">
+        <h2>Bebidas</h2>
+        <div class="menu-item">
+            <span>🥤 Refrigerante (Lata)</span>
+            <span>R$ 5.00</span>
+        </div>
+        <div class="menu-item">
+            <span>🥤 Refrigerante (2 Litros)</span>
+            <span>R$ 10.00</span>
+        </div>
+        <div class="menu-item">
+            <span>💧 Água Mineral (500ml)</span>
+            <span>R$ 3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>💧 Água Mineral (1 Litro)</span>
+            <span>R$ 5.00</span>
+        </div>
+        <div class="menu-item">
+            <span>🍹 Suco Natural (300ml)</span>
+            <span>R$ 7.00</span>
+        </div>
+        <div class="menu-item">
+            <span>🍹 Suco Natural (500ml)</span>
+            <span>R$ 12.00</span>
+        </div>
+        <div class="menu-item">
+            <span>🍺 Cerveja Nacional (600ml)</span>
+            <span>R$ 
